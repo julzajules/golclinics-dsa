@@ -1,0 +1,13 @@
+C:\Users\julia\Documents\Learning\GoL Clinics\golclinics-dsa\classwork\01 - Arrays & Strings\01_Arrays_and_strings\bin\Debug\netcoreapp3.1\01_Arrays_and_strings.exe
+C:\Users\julia\Documents\Learning\GoL Clinics\golclinics-dsa\classwork\01 - Arrays & Strings\01_Arrays_and_strings\bin\Debug\netcoreapp3.1\01_Arrays_and_strings.deps.json
+C:\Users\julia\Documents\Learning\GoL Clinics\golclinics-dsa\classwork\01 - Arrays & Strings\01_Arrays_and_strings\bin\Debug\netcoreapp3.1\01_Arrays_and_strings.runtimeconfig.json
+C:\Users\julia\Documents\Learning\GoL Clinics\golclinics-dsa\classwork\01 - Arrays & Strings\01_Arrays_and_strings\bin\Debug\netcoreapp3.1\01_Arrays_and_strings.runtimeconfig.dev.json
+C:\Users\julia\Documents\Learning\GoL Clinics\golclinics-dsa\classwork\01 - Arrays & Strings\01_Arrays_and_strings\bin\Debug\netcoreapp3.1\01_Arrays_and_strings.dll
+C:\Users\julia\Documents\Learning\GoL Clinics\golclinics-dsa\classwork\01 - Arrays & Strings\01_Arrays_and_strings\bin\Debug\netcoreapp3.1\01_Arrays_and_strings.pdb
+C:\Users\julia\Documents\Learning\GoL Clinics\golclinics-dsa\classwork\01 - Arrays & Strings\01_Arrays_and_strings\obj\Debug\netcoreapp3.1\01_Arrays_and_strings.vbprojAssemblyReference.cache
+C:\Users\julia\Documents\Learning\GoL Clinics\golclinics-dsa\classwork\01 - Arrays & Strings\01_Arrays_and_strings\obj\Debug\netcoreapp3.1\01_Arrays_and_strings.AssemblyInfoInputs.cache
+C:\Users\julia\Documents\Learning\GoL Clinics\golclinics-dsa\classwork\01 - Arrays & Strings\01_Arrays_and_strings\obj\Debug\netcoreapp3.1\01_Arrays_and_strings.AssemblyInfo.vb
+C:\Users\julia\Documents\Learning\GoL Clinics\golclinics-dsa\classwork\01 - Arrays & Strings\01_Arrays_and_strings\obj\Debug\netcoreapp3.1\01_Arrays_and_strings.vbproj.CoreCompileInputs.cache
+C:\Users\julia\Documents\Learning\GoL Clinics\golclinics-dsa\classwork\01 - Arrays & Strings\01_Arrays_and_strings\obj\Debug\netcoreapp3.1\01_Arrays_and_strings.dll
+C:\Users\julia\Documents\Learning\GoL Clinics\golclinics-dsa\classwork\01 - Arrays & Strings\01_Arrays_and_strings\obj\Debug\netcoreapp3.1\01_Arrays_and_strings.pdb
+C:\Users\julia\Documents\Learning\GoL Clinics\golclinics-dsa\classwork\01 - Arrays & Strings\01_Arrays_and_strings\obj\Debug\netcoreapp3.1\01_Arrays_and_strings.genruntimeconfig.cache

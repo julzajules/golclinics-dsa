@@ -1,0 +1,101 @@
+* An algorithm is a sequence of unambigous instructions for solving a given computation problem/ Procedural solutions to a problem
+The range of inputs on which an algorithm is to work on needs to be specified carefully 
+
+Example
+    Finding the greatest common divisor (GCD - the largest integer which divedes them all) of 2 non-negative numbers, not both zero integers m and n denoted by GCD(m,n)
+There are 3 ways of solving this;
+    1. Euclid's Algorithm 
+        GCD(m,n) = GCD(n, m mod n)
+            PSEUDO CODE
+            Input 2 non-negative numbers, both non-zero integers m & n
+            output gcd of m and n
+                while n!= 0 do
+                    r<-- m mod n
+                    m<--n
+                    n<--r
+                        return m
+                        
+    2. Consecutive Integer Checking Algorithm
+        The gcd cannot be greater than the smallest of the numbers, so it's denoted by t = min{m,n}
+            PSEUDO CODE
+            Assign the value of min{m,n} to t
+            Divide m by t. If the reminder of this division is 0, go to step 3, otherwise, go to step 4
+            Divide n by t. If the reminder of this division is 0, return t as the answer
+            Decrease the value of t by 1, then go back to step 2
+          
+    3. Middle school procedure
+    
+    DESIGN & ANALYSIS PROBLEM
+    1) Understand the problem -->  
+        2) Decide on the computational means --> 
+            3) Design algorithm -->
+                4) Prove correctness -->
+                    5) Analyze the algorithm -->
+                        6) Code the algorithm.
+     NB: The correctness of the algorithm does not necessarily mean the correctness of the program implementing it.
+     
+     CHARACTERISTICS OF AN ALGORITHM
+     1. Have inputs and for every input, provide an output
+     2. Finite (The algorithm should terminate)
+     3. definiteness (Every step of the algorithm needs to be clear and unambigous)
+
+     TYPES OF PROBLEMS
+     a) Sorting (Arranging data in ascending or descending order)
+     b) Searching (Finding an element in the data set)
+     c) String processing
+     d) Graph problems
+     e) Combinational problems
+     f) Geometric problems
+     g) Numerical problems
+     
+* Data Structure is a scheme of organizing related data items
+Examples - Linear data structures, Graphs, trees, sets & dictionaries
+We compare algorithms using different criteria;
+    Availability in the library,
+    Space requirement
+    Time requirement
+        We measure time using 2 ways:
+            Write & run the program (Overhead, coding, computer, data)
+            Mathematical analysis
+    Cost of human time
+    
+    FIBONACCI NUMBERS
+* Fibonacci sequence, each number is the sum of the 2 previous ones.
+0,1,2,3,5,8,13,21,34,55,89
+
+    ASYMPTOTIC ANALYSIS
+* A measure of efficiency of algorithms that does not depend on machine specific constants and does not require algorithms to be implemented and time taken to be compared
+- We study algorithms performance to understand scalability, enhance performance, understand feasible solutions 
+
+    INSERTION SORT ALGORITHM
+* A sorted sequence is easier to sort 
+An element being added to the sequence needs to find it's right place and be placed there  
+
+    procedure insertionSort (A : array of items )
+        int holePosition
+        int valueToInsert
+        for i = 1 to length(A) inclusive do:
+            while holePosition > 0 and A[holePosition - 1] > valueToInsert do:
+                A[holePosition] = A[holePosition - 1]
+                holePosition = holePosition - 1
+            end while
+        
+            A[holePosition] = valueToInsert
+        end for
+    end procedure
+    
+    DIVIDE & CONQUER ALGORITHMS
+    Examples:
+        Sorting (Merge sort & quicksort)
+        Binary tree traversals
+        Multiplication of large integers
+        Matrix multiplication (Strassen's algorithm)
+        Closest pair & convex-hull algorithm
+        Binary search
+    
+    MERGE SORT ALGORITHM (worst-time complexity of O(n log n))
+        #if it is only one element, it is already sorted, return
+        #divide the list recursively into 2 halves until it can no more be divided
+        #merge the smaller lists into a new list in sorted order
+        
+    
