@@ -3,7 +3,7 @@ public class stackimplementation {
     static int stacksize = 5;
     //the stack accepts elements of integer data type
     static int[] stack = new int [stacksize];
-    //keeping tabs of the first element in the stack
+    //keeping tabs of the first element in the stack 
     static int top = -1;
 
     //method to check if the stack is full
@@ -52,6 +52,7 @@ public class stackimplementation {
         }
     }
    
+    //see the element at the top of the stack
     static void peek() {
         if(stackIsEmpty()) {
             System.out.println("Stack is empty!");
@@ -60,6 +61,7 @@ public class stackimplementation {
         }
     }
 
+    //capacity is number of elements in the stack
     static int stackCapacity() {
         int capacity = top + 1;
         return capacity;
