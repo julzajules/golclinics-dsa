@@ -11,4 +11,18 @@ y.join(' ')
 //result would be {y = zello}, a string again
 
 
+//Subscripting
+//1 - d array
 
+let a1 = [1,3];
+
+//2 - d array --> 2 * 2
+let a2 = [
+    [1,3], [4,5]
+];
+
+//3 - d array --> 2 * 2 * 2
+let a3 = [
+    [[1,1], [3,3]],
+    [[4,4], [5,5]]
+];
